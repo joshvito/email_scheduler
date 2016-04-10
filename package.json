@@ -1,0 +1,18 @@
+{
+  "name": "email_scheduler",
+  "version": "1.0.0",
+  "description": "project to hold scripts to send emails via script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "joshvito",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemailer": "^2.3.1",
+    "q": "^1.4.1"
+  }
+}

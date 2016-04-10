@@ -58,7 +58,7 @@ var messageText = "BOD and Committee chairs,"+
 // setup e-mail data with unicode symbols
 var mailOptions = {
     from: '"Josh 🐟" <tfceceditor@gmail.com>', // sender address
-    to: 'joshvito@gmail.com, 7162085596@mms.att.net', // list of receivers
+    to: tos, // list of receivers
     subject: 'TFCEC Newsletter Deadline is approaching', // Subject line
     text: messageText, // plaintext body
     html: null // html body

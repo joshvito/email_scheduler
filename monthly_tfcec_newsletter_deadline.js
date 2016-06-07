@@ -24,7 +24,7 @@ function sendEmails(options){
 	return deferred.promise;
 }
 
-var tos = 'tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@aol.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net';
+var tos = 'tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@aol.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com';
 
 var messageText = "BOD and Committee chairs,"+
 " \n"+
@@ -33,6 +33,8 @@ var messageText = "BOD and Committee chairs,"+
 "Please do your best to reply with the following so an update can be included in this month's newsletter."+
 " \n"+
 "·         Chairman's Message"+
+" \n"+
+"·         THis month and future program information, speaker, talk subject etc."+
 " \n"+
 "·         Last month's bowl show winner (with photo)"+
 " \n"+

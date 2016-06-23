@@ -28,6 +28,9 @@ var tos = 'tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@aol.com, petespoint
 
 var messageText = "BOD and Committee chairs,"+
 " \n"+
+"NOTE: FOR JULY 2016: The deadline will be July 1, 2016 as I am on vacation the week of the 4th."
+" \n"+
+" \n"+
 "The deadline for the next newsletter is the FIRST Tuesday of the Month."+
  " \n"+
 "Please do your best to reply with the following so an update can be included in this month's newsletter."+

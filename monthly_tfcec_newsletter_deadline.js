@@ -27,9 +27,9 @@ function sendEmails(options){
 var tos = 'tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@aol.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com';
 
 var messageText = "BOD and Committee chairs,"+
-" \n"+
-"NOTE: FOR JULY 2016: The deadline will be July 1, 2016 as I am on vacation the week of the 4th."
-" \n"+
+// " \n"+
+// "NOTE: FOR JULY 2016: The deadline will be July 1, 2016 as I am on vacation the week of the 4th."
+// " \n"+
 " \n"+
 "The deadline for the next newsletter is the FIRST Tuesday of the Month."+
  " \n"+

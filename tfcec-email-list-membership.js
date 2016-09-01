@@ -79,20 +79,22 @@ var emails = ""+
 "" ;
 
 var tfcecFriends = "CNYASPres@gmail.com" + 
-"fishlounge1@cs.com" + 
-"coryjeb@comcast.net" + 
 "borstein@yahoo.com" + 
-"zenin@golden.net" + 
+"bulletin@hdas.ca" + 
+"ceichrodt@comcast.net" + 
+"champaignfishguy1@yahoo.com" + 
+"coryjeb@comcast.net" + 
+"cyrus646464@yahoo.com" +
+"dwilliamson223@hotmail.com"+
+"fishlounge1@cs.com" + 
+"fraleyb@sbcglobal.net" + 
+"r_bierbower@hotmail.com" + 
+"ron.bishop2@sympatico.ca" + 
+"skmsoka@gmail.com" + 
 "wilmaches@hotmail.com" + 
 "wtoven@hotmail.com" + 
-"skmsoka@gmail.com" + 
-"cyrus646464@yahoo.com" + 
-"bulletin@hdas.ca" + 
-"champaignfishguy1@yahoo.com" + 
-"fraleyb@sbcglobal.net" + 
-"ron.bishop2@sympatico.ca" + 
-"r_bierbower@hotmail.com" + 
-"dwilliamson223@hotmail.com";
+"zenin@golden.net" + 
+"";
 
 // USE VIA
 //   var buz = require('./tfcec-email-list-membership.js');

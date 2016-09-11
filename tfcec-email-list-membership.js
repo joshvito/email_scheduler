@@ -8,6 +8,7 @@ var emails = ""+
 "carved716@gmail.com,"+
 // "caseykesterson@live.com,"+
 // "ceganyboy@webtv.net,"+
+"crcarthew@yahoo.com"+
 "cjgray49@gmail.com,"+
 "colton_peterson@hotmail.com,"+
 "cphardy85@gmail.com,"+

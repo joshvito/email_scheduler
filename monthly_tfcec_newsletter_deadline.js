@@ -51,7 +51,7 @@ var messageText = "BOD and Committee chairs,"+
 " \n"+
 "·         Minutes from previous month's general meeting"+
 " \n"+
-"·         Membership news"+
+"·         Membership news and updated member email list"+
 " \n"+
 "·         Any additional message you need to share (upcoming events, club news, ways and means etc.)"+
  " \n"+

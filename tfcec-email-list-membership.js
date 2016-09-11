@@ -6,8 +6,8 @@ var emails = ""+
 "brokenboxj@gmail.com,"+
 "bullbud@gmail.com,"+
 "carved716@gmail.com,"+
-"caseykesterson@live.com,"+
-"ceganyboy@webtv.net,"+
+// "caseykesterson@live.com,"+
+// "ceganyboy@webtv.net,"+
 "crcarthew@yahoo.com,"+
 "cjgray49@gmail.com,"+
 "colton_peterson@hotmail.com,"+
@@ -70,6 +70,8 @@ var emails = ""+
 "t_russ2@yahoo.com,"+
 "tbam101@gmail.com,"+
 "tfcectom@gmail.com,"+
+"TKoala529@aol.com,"+
+"tfcprez2@aol.com,"+
 "tgroset@yahoo.com,"+
 "theduuz@aol.com,"+
 "triz316@verizon.net,"+

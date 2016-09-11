@@ -6,12 +6,13 @@ var emails = ""+
 "brokenboxj@gmail.com,"+
 "bullbud@gmail.com,"+
 "carved716@gmail.com,"+
-// "caseykesterson@live.com,"+
-// "ceganyboy@webtv.net,"+
-"crcarthew@yahoo.com"+
+"caseykesterson@live.com,"+
+"ceganyboy@webtv.net,"+
+"crcarthew@yahoo.com,"+
 "cjgray49@gmail.com,"+
 "colton_peterson@hotmail.com,"+
 "cphardy85@gmail.com,"+
+"cuttinglight@gmail.com,"+
 "davebinko@yahoo.com,"+
 "davin3179@aol.com,"+
 "dawnmd@gmail.com,"+
@@ -20,7 +21,6 @@ var emails = ""+
 "dtr1991@hotmail.com,"+
 "fairytales1980@gmail.com,"+
 "fdsh5@verizon.net,"+
-"fishey2@roadrunner.com,"+
 "fishguy_99@yahoo.com,"+
 "fishman544@gmail.com,"+
 "frenchmdm@yahoo.com,"+
@@ -32,7 +32,7 @@ var emails = ""+
 "jackmullen2001@yahoo.com,"+
 "jczuba@buffalolodging.com,"+
 "jdoss33106@gmail.com,"+
-// "jeksoldfalls@outlook.com,"+
+"jeksoldfalls@outlook.com,"+
 "jessemason@gmail.com,"+
 "jimfitz105@gmail.com,"+
 "jjoleen21@yahoo.com,"+
@@ -53,6 +53,7 @@ var emails = ""+
 "pappaluigi@verizon.net,"+
 "pennopee@yahoo.com,"+
 "petespoint@juno.com,"+
+"phantom621@hotmail.com,"+
 "phoffman3@rochester.rr.com,"+
 "pmljr@aol.com,"+
 "Princess.donna@live.com,"+
@@ -63,10 +64,10 @@ var emails = ""+
 "rjgbuffalo1@yahoo.com,"+
 "russ531@hotmail.com,"+
 "sandie6969@gmail.com,"+
-"scrumb@live.com,"+
 "shflierl@gmail.com,"+
 "shizzle47688@gmail.com,"+
 "steve826@roadrunner.com,"+
+"t_russ2@yahoo.com,"+
 "tbam101@gmail.com,"+
 "tfcectom@gmail.com,"+
 "tgroset@yahoo.com,"+
@@ -79,22 +80,23 @@ var emails = ""+
 "zenzerhead@aol.com,"+
 "" ;
 
-var tfcecFriends = "CNYASPres@gmail.com" + 
-"borstein@yahoo.com" + 
-"bulletin@hdas.ca" + 
-"ceichrodt@comcast.net" + 
-"champaignfishguy1@yahoo.com" + 
-"coryjeb@comcast.net" + 
-"cyrus646464@yahoo.com" +
-"dwilliamson223@hotmail.com"+
-"fishlounge1@cs.com" + 
-"fraleyb@sbcglobal.net" + 
-"r_bierbower@hotmail.com" + 
-"ron.bishop2@sympatico.ca" + 
-"skmsoka@gmail.com" + 
-"wilmaches@hotmail.com" + 
-"wtoven@hotmail.com" + 
-"zenin@golden.net" + 
+var tfcecFriends = ""+
+"CNYASPres@gmail.com,"+ 
+"borstein@yahoo.com,"+ 
+"bulletin@hdas.ca,"+ 
+"ceichrodt@comcast.net,"+ 
+"champaignfishguy1@yahoo.com,"+ 
+"coryjeb@comcast.net,"+ 
+"cyrus646464@yahoo.com,"+
+"dwilliamson223@hotmail.com,"+
+"fishlounge1@cs.com,"+ 
+"fraleyb@sbcglobal.net,"+ 
+"r_bierbower@hotmail.com,"+ 
+"ron.bishop2@sympatico.ca,"+ 
+"skmsoka@gmail.com,"+ 
+"wilmaches@hotmail.com,"+ 
+"wtoven@hotmail.com,"+ 
+"zenin@golden.net,"+ 
 "";
 
 // USE VIA

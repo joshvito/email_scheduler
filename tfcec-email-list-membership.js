@@ -1,6 +1,52 @@
 'use strict';
 
 var emails = ""+
+"bmtdj@yahoo.com,"+
+"bonniegiff@aol.com,"+
+"brokenboxj@gmail.com,"+
+"cjgray49@gmail.com,"+
+"cphardy85@gmail.com,"+
+"crcarthew@yahoo.com,"+
+"cuttinglight@gmail.com,"+
+"dawnmd@gmail.com,"+
+"dtr1991@hotmail.com,"+
+"extra-spicey@hotmail.com,"+
+"fishguy_99@yahoo.com,"+
+"fishman544@gmail.com,"+
+"gardneri@aol.com,"+
+"gregnski@cs.com,"+
+"jackmullen2001@yahoo.com,"+
+"jeksoldfalls@outlook.com,"+
+"jimfitz105@gmail.com,"+
+"jkrywalski@roadrunner.com,"+
+"josh.vito@gmail.com,"+
+"kilobob53@aol.com,"+
+"kingfish51@verizon.net,"+
+"mcjit99@aol.com,"+
+"mike@mikeswetpets.com,"+
+"pappaluigi@verizon.net,"+
+"petespoint@juno.com,"+
+"phantom621@hotmail.com,"+
+"phoffman3@rochester.rr.com,"+
+"Princess.donna@live.com,"+
+"qty10@aol.com,"+
+"rapidron36@verizon.net,"+
+"renae1964@gmail.com,"+
+"rjgbuffalo1@yahoo.com,"+
+"russ531@hotmail.com,"+
+"shflierl@gmail.com,"+
+"steve826@roadrunner.com,"+
+"tfcectom@gmail.com,"+
+"TKoala529@aol.com,"+
+"tfcprez2@aol.com,"+
+"tgroset@yahoo.com,"+
+"theduuz@aol.com,"+
+"triz316@verizon.net,"+
+"wildbill41361@aol.com,"+
+"wilkolaski@roadrunner.com,"+
+
+
+var emails_20161105 = ""+
 "angelman4@verizon.net,"+
 "bmtdj@yahoo.com,"+
 "bonniegiff@aol.com,"+
@@ -110,6 +156,10 @@ var TFCECEMAILS = function () {};
 
 TFCECEMAILS.prototype.getBcc = function () {
   return emails;
+};
+
+TFCECEMAILS.prototype.getBccPre201611 = function () {
+  return emails_20161105;
 };
 
 TFCECEMAILS.prototype.getFriends = function () {

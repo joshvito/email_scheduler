@@ -2,6 +2,7 @@
 
 var emails = ""+
 "angelman4@verizon.net,"+
+"bmtdj@yahoo.com,"+
 "bonniegiff@aol.com,"+
 "brokenboxj@gmail.com,"+
 "bullbud@gmail.com,"+
@@ -19,6 +20,7 @@ var emails = ""+
 "diggindirt45@gmail.com,"+
 "dnewsham68@gmail.com,"+
 "dtr1991@hotmail.com,"+
+// "extra-spicey@hotmail.com,"+
 "fairytales1980@gmail.com,"+
 "fdsh5@verizon.net,"+
 "fishguy_99@yahoo.com,"+

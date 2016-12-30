@@ -67,7 +67,7 @@ var emails_20161105 = ""+
 "diggindirt45@gmail.com,"+
 "dnewsham68@gmail.com,"+
 "dtr1991@hotmail.com,"+
-// "extra-spicey@hotmail.com,"+
+"extra-spicy@hotmail.com,"+
 "fairytales1980@gmail.com,"+
 "fdsh5@verizon.net,"+
 "fishguy_99@yahoo.com,"+

@@ -24,7 +24,7 @@ function sendEmails(options){
 	return deferred.promise;
 }
 
-var tos = 'tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@aol.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com';
+var tos = 'gardneri@aol.com, princess.donna@live.com, tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@aol.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com';
 
 var messageText = "BOD and Committee chairs,"+
 // " \n"+

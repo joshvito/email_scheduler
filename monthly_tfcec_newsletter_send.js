@@ -55,8 +55,8 @@ var mailOptions = {
 getHtml()
 .then(function(data){
 		mailOptions.html = data;
-		return sendEmails(mailOptions);
 		console.log(mailOptions.bcc);
+		return sendEmails(mailOptions);
 	})
 .then(function sendEmailsCompleted(data){
 	console.log(data);

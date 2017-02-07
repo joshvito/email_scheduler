@@ -10,7 +10,7 @@ var emails = ""+
 "cuttinglight@gmail.com,"+
 "dawnmd@gmail.com,"+
 "dtr1991@hotmail.com,"+
-"extra-spicey@hotmail.com,"+
+"extra-spicy@hotmail.com,"+
 "fishguy_99@yahoo.com,"+
 "fishman544@gmail.com,"+
 "gardneri@aol.com,"+
@@ -137,8 +137,8 @@ var emails_20161219 = ""+
 "bmtdj@yahoo.com,"+
 "bonniegiff@aol.com,"+
 "brokenboxj@gmail.com,"+
-"caseykesterson@live.com,"+
-"ceganyboy@webtv.net,"+
+// "caseykesterson@live.com,"+
+// "ceganyboy@webtv.net,"+
 "cjgray49@gmail.com,"+
 "cphardy85@gmail.com,"+
 "cuttinglight@gmail.com,"+
@@ -180,7 +180,7 @@ var emails_20161219 = ""+
 "t_russ2@yahoo.com,"+
 "tbam101@gmail.com,"+
 "tfcectom@gmail.com,"+
-"tfcprez2@aol.com,"+
+"tfcprez2@gmail.com,"+
 "tgroset@yahoo.com,"+
 "theduuz@aol.com,"+
 "tkoala529@aol.com,"+

@@ -24,22 +24,22 @@ function sendEmails(options){
 	return deferred.promise;
 }
 
-var tos = 'gardneri@aol.com, princess.donna@live.com, tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@aol.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com';
+var tos = 'gardneri@aol.com, princess.donna@live.com, tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@gmail.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com, TKoala529@aol.com';
 
 var messageText = "BOD and Committee chairs,"+
 // " \n"+
 // "NOTE: FOR JULY 2016: The deadline will be July 1, 2016 as I am on vacation the week of the 4th."
 // " \n"+
 " \n"+
-"The deadline for the next newsletter is the FIRST Tuesday of the Month."+
+"The deadline for the next newsletter is the LAST Tuesday of the Month."+
  " \n"+
 "Please do your best to reply with the following so an update can be included in this month's newsletter."+
 " \n"+
 "·         Chairman's Message"+
 " \n"+
-"·         THis month and future program information, speaker, talk subject etc."+
+"·         This month and future program information, speaker, talk subject etc."+
 " \n"+
-"·         Last month's bowl show winner (with photo)"+
+"·         Last month's bowl show winners (with photo)"+
 " \n"+
 "·         Current year to date BAP standings"+
 " \n"+

@@ -62,8 +62,7 @@ var emails_20170317 = ""+
 "wildbill41361@aol.com,"+
 "wilkolaski@roadrunner.com,"+
 "wrobinson113@triad.rr.com,"+
-"zenzerhead@aol.com,"+
-
+"zenzerhead@aol.com,";
 
 var emails_20161219 = ""+
 "altifrons@aol.com,"+

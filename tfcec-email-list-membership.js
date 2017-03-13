@@ -1,135 +1,69 @@
 'use strict';
 
-var emails = ""+
-"bmtdj@yahoo.com,"+
-"bonniegiff@aol.com,"+
-"brokenboxj@gmail.com,"+
-"cjgray49@gmail.com,"+
-"cphardy85@gmail.com,"+
-"crcarthew@yahoo.com,"+
-"cuttinglight@gmail.com,"+
-"dawnmd@gmail.com,"+
-"dtr1991@hotmail.com,"+
-"extra-spicy@hotmail.com,"+
-"fishguy_99@yahoo.com,"+
-"fishman544@gmail.com,"+
-"gardneri@aol.com,"+
-"gregnski@cs.com,"+
-"jackmullen2001@yahoo.com,"+
-"jeksoldfalls@outlook.com,"+
-"jimfitz105@gmail.com,"+
-"jkrywalski@roadrunner.com,"+
-"josh.vito@gmail.com,"+
-"kilobob53@aol.com,"+
-"kingfish51@verizon.net,"+
-"mcjit99@aol.com,"+
-"mike@mikeswetpets.com,"+
-"pappaluigi@verizon.net,"+
-"petespoint@juno.com,"+
-"phantom621@hotmail.com,"+
-"phoffman3@rochester.rr.com,"+
-"Princess.donna@live.com,"+
-"qty10@aol.com,"+
-"rapidron36@verizon.net,"+
-"renae1964@gmail.com,"+
-"rjgbuffalo1@yahoo.com,"+
-"russ531@hotmail.com,"+
-"shflierl@gmail.com,"+
-"steve826@roadrunner.com,"+
-"tfcectom@gmail.com,"+
-"TKoala529@aol.com,"+
-"tfcprez2@aol.com,"+
-"tgroset@yahoo.com,"+
-"theduuz@aol.com,"+
-"triz316@verizon.net,"+
-"wildbill41361@aol.com,"+
-"wilkolaski@roadrunner.com,"+
-"";
-
-
-var emails_20161105 = ""+
+var emails_20170317 = ""+
+"altifrons@aol.com,"+
 "angelman4@verizon.net,"+
 "bmtdj@yahoo.com,"+
 "bonniegiff@aol.com,"+
 "brokenboxj@gmail.com,"+
-"bullbud@gmail.com,"+
-"carved716@gmail.com,"+
 // "caseykesterson@live.com,"+
 // "ceganyboy@webtv.net,"+
-"crcarthew@yahoo.com,"+
 "cjgray49@gmail.com,"+
-"colton_peterson@hotmail.com,"+
 "cphardy85@gmail.com,"+
 "cuttinglight@gmail.com,"+
-"davebinko@yahoo.com,"+
-"davin3179@aol.com,"+
 "dawnmd@gmail.com,"+
 "diggindirt45@gmail.com,"+
-"dnewsham68@gmail.com,"+
 "dtr1991@hotmail.com,"+
 "extra-spicy@hotmail.com,"+
-"fairytales1980@gmail.com,"+
-"fdsh5@verizon.net,"+
 "fishguy_99@yahoo.com,"+
 "fishman544@gmail.com,"+
-"frenchmdm@yahoo.com,"+
-"galstaph@gmail.com,"+
+"frankmoreauonthetube@gmail.com,"+
 "gardneri@aol.com,"+
+"gregdalortz@gmail.com,"+
 "gregnski@cs.com,"+
 "haaksr7@yahoo.com,"+
 "hoppfishmusic@yahoo.com,"+
 "jackmullen2001@yahoo.com,"+
-"jczuba@buffalolodging.com,"+
-"jdoss33106@gmail.com,"+
-"jeksoldfalls@outlook.com,"+
-"jessemason@gmail.com,"+
+"jasonrd1215@yahoo.com,"+
+"jeksoldfalls@gmail.com,"+
 "jimfitz105@gmail.com,"+
-"jjoleen21@yahoo.com,"+
 "jkrywalski@roadrunner.com,"+
 "josephmalikowski77@gmail.com,"+
 "josh.vito@gmail.com,"+
-"kendrolabs@aol.com,"+
 "kilobob53@aol.com,"+
-"kimantha333@gmail.com,"+
 "kingfish51@verizon.net,"+
-"leonardc5711@gmail.com,"+
-"leprells@aol.com,"+
-"ludwigruss@gmail.com,"+
 "mcjit99@aol.com,"+
 "miguelongo9@gmail.com,"+
 "mike@mikeswetpets.com,"+
-"newmanjc@buffalostate.edu,"+
 "pappaluigi@verizon.net,"+
-"pennopee@yahoo.com,"+
 "petespoint@juno.com,"+
 "phantom621@hotmail.com,"+
 "phoffman3@rochester.rr.com,"+
-"pmljr@aol.com,"+
 "Princess.donna@live.com,"+
 "qty10@aol.com,"+
 "rapidron36@verizon.net,"+
-"reelupman14@gmail.com,"+
+"rayenzinna@yahoo.com,"+
 "renae1964@gmail.com,"+
+"risquediver@yahoo.com,"+
 "rjgbuffalo1@yahoo.com,"+
+"robert.p.carney@icloud.com,"+
 "russ531@hotmail.com,"+
-"sandie6969@gmail.com,"+
+"rxslave@aol.com,"+
 "shflierl@gmail.com,"+
-"shizzle47688@gmail.com,"+
 "steve826@roadrunner.com,"+
 "t_russ2@yahoo.com,"+
 "tbam101@gmail.com,"+
 "tfcectom@gmail.com,"+
-"TKoala529@aol.com,"+
 "tfcprez2@aol.com,"+
 "tgroset@yahoo.com,"+
 "theduuz@aol.com,"+
+"tkoala529@aol.com,"+
 "triz316@verizon.net,"+
-"twlosinski@yahoo.com,"+
-"vandave123@gmail.com,"+
 "wildbill41361@aol.com,"+
 "wilkolaski@roadrunner.com,"+
+"wrobinson113@triad.rr.com,"+
 "zenzerhead@aol.com,"+
-"" ;
+
 
 var emails_20161219 = ""+
 "altifrons@aol.com,"+
@@ -202,12 +136,15 @@ var tfcecFriends = ""+
 "dwilliamson223@hotmail.com,"+
 "fishlounge1@cs.com,"+ 
 "fraleyb@sbcglobal.net,"+ 
+"pparadis1@hotmail.com,"+
+"romanhaljkevic@gmail.com,"+
+"scaaseditor@yahoo.com,"+
 "r_bierbower@hotmail.com,"+ 
 "ron.bishop2@sympatico.ca,"+ 
 "skmsoka@gmail.com,"+ 
 "wilmaches@hotmail.com,"+ 
 "wtoven@hotmail.com,"+ 
-"zenin@golden.net,"+ 
+"zenin@golden.net,"+
 "";
 
 // USE VIA
@@ -220,7 +157,7 @@ var TFCECEMAILS = function () {};
 // };
 
 TFCECEMAILS.prototype.getBcc = function () {
-  return emails_20161219;
+  return emails_20170317;
 };
 
 TFCECEMAILS.prototype.getFriends = function () {

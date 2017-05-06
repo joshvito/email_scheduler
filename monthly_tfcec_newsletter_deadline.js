@@ -1,19 +1,20 @@
 'use strict';
-var nodemailer = require('nodemailer'),
+let nodemailer = require('nodemailer'),
 	q = require('q'),
-	FS = require('fs');
+	FS = require('fs'),
+	TRANSPORTER = require('./gmail.transporter.js');
 
 // create reusable transporter object using the default SMTP transport
-var transporter = nodemailer.createTransport('smtps://josh.vito%40gmail.com:iysfqscfoshmvhks@smtp.gmail.com');
+let transporter = TRANSPORTER.get();
 
 function getHtml(){
-	var deferred = q.defer();
+	let deferred = q.defer();
 	FS.readFile("tfcec_newsletter_deadline_inlined.html", "utf-8", deferred.makeNodeResolver());
 	return deferred.promise;
 }
 
 function sendEmails(options){
-	var deferred = q.defer();
+	let deferred = q.defer();
 	// send mail with defined transport object
 	transporter.sendMail(options, function(error, info){
 	    if(error){
@@ -23,10 +24,8 @@ function sendEmails(options){
 	});
 	return deferred.promise;
 }
-
-var tos = 'gardneri@aol.com, princess.donna@live.com, tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@gmail.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com, TKoala529@aol.com';
-
-var messageText = "BOD and Committee chairs,"+
+let tos = 'gardneri@aol.com, princess.donna@live.com, tfcectom@gmail.com, triz316@verizon.net, TFCPREZ2@gmail.com, petespoint@juno.com, mike@mikeswetpets.com, jackmullen2001@yahoo.com,	fdsh5@verizon.net, Wildbill41361@aol.com, jfitz105@hotmail.com, antoniomfmartina@yahoo.com, TfcecMikeC@gmail.com, cphardy85@gmail.com, phantom621@hotmail.com, Theduuz@aol.com, 7162085596@mms.att.net, dawnmd@gmail.com, TKoala529@aol.com';
+let messageText = "BOD and Committee chairs,"+
 // " \n"+
 // "NOTE: FOR JULY 2016: The deadline will be July 1, 2016 as I am on vacation the week of the 4th."
 // " \n"+
@@ -61,7 +60,7 @@ var messageText = "BOD and Committee chairs,"+
 "tfceceditor@gmail.com";
 
 // setup e-mail data with unicode symbols
-var mailOptions = {
+let mailOptions = {
     from: '"Josh 🐟" <tfceceditor@gmail.com>', // sender address
     to: tos, // list of receivers
     subject: 'TFCEC Newsletter Deadline is approaching', // Subject line

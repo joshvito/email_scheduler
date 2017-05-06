@@ -1,24 +1,25 @@
 'use strict';
-var nodemailer = require('nodemailer'),
+let nodemailer = require('nodemailer'),
 	q = require('q'),
 	FS = require('fs'),
-	Emails = require('./tfcec-email-list-membership.js');
+	Emails = require('./tfcec-email-list-membership.js'),
+	TRANSPORTER = require('./gmail.transporter.js');
 
-var objDate = new Date(),
+let objDate = new Date(),
     locale = "en-us",
     month = objDate.toLocaleString(locale, { month: "long" });
 
 // create reusable transporter object using the default SMTP transport
-var transporter = nodemailer.createTransport('smtps://josh.vito%40gmail.com:iysfqscfoshmvhks@smtp.gmail.com');
+let transporter = TRANSPORTER.get();
 
 function getHtml(){
-	var deferred = q.defer();
+	let deferred = q.defer();
 	FS.readFile("./tfcec_newsletter_posted_inlined.html", "utf-8", deferred.makeNodeResolver());
 	return deferred.promise;
 }
 
 function sendEmails(options){
-	var deferred = q.defer();
+	let deferred = q.defer();
 	// send mail with defined transport object
 	transporter.sendMail(options, function(error, info){
 	    if(error){
@@ -29,10 +30,10 @@ function sendEmails(options){
 	return deferred.promise;
 }
 
-var tos = 'tfceceditor@gmail.com';
-var bccs = '';//append the list of club members
+let tos = 'tfceceditor@gmail.com';
+let bccs = '';//append the list of club members
 
-var messageText = "Download the latest TFCEC newsletter by visiting the club website at http://tropical-fish-club-of-erie-county.com" +
+let messageText = "Download the latest TFCEC newsletter by visiting the club website at http://tropical-fish-club-of-erie-county.com" +
 " \n"+
 	"As always, if you have any content to add to next month's newsletter, reply to this message and I'll do my best to accomodate."+
 " \n"+
@@ -42,7 +43,7 @@ var messageText = "Download the latest TFCEC newsletter by visiting the club web
 "tfceceditor@gmail.com";
 
 // setup e-mail data with unicode symbols
-var mailOptions = {
+let mailOptions = {
     from: '"Josh 🐟" <tfceceditor@gmail.com>', // sender address
     to: tos, // list of receivers
     replyTo: "tfceceditor@gmail.com",

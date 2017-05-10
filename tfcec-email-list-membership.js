@@ -1,13 +1,13 @@
 'use strict';
 
-var emails_20170405 = ""+
+let emails_20170509 = ""+
 "altifrons@aol.com,"+
 "angelman4@verizon.net,"+
 "bmtdj@yahoo.com,"+
 "bonniegiff@aol.com,"+
 "brokenboxj@gmail.com,"+
-"caseykesterson@live.com,"+
-"ceganyboy@webtv.net,"+
+// "caseykesterson@live.com,"+
+// "ceganyboy@webtv.net,"+
 "cjgray49@gmail.com,"+
 "cphardy85@gmail.com,"+
 "cuttinglight@gmail.com,"+
@@ -66,7 +66,8 @@ var emails_20170405 = ""+
 "wildbill41361@aol.com,"+
 "wilkolaski@roadrunner.com,"+
 "wrobinson113@triad.rr.com,"+
-"zenzerhead@aol.com,";
+"zenzerhead@aol.com,"+
+"";
 
 var tfcecFriends = ""+
 "CNYASPres@gmail.com,"+ 
@@ -100,7 +101,7 @@ var TFCECEMAILS = function () {};
 // };
 
 TFCECEMAILS.prototype.getBcc = function () {
-  return emails_20170405;
+  return emails_20170509;
 };
 
 TFCECEMAILS.prototype.getFriends = function () {

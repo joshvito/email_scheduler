@@ -40,7 +40,7 @@ let emails_20170606 = ""+
 "miguelongo9@gmail.com,"+
 "mike@mikeswetpets.com,"+
 "nathankulak@hotmail.com,"+
-"pappaluigi@verizon.net,"+
+// "pappaluigi@verizon.net,"+
 "petespoint@juno.com,"+
 "phantom621@hotmail.com,"+
 "phoffman3@rochester.rr.com,"+

@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-let emails_20170509 = ""+
+let emails_20170606 = ""+
 "altifrons@aol.com,"+
 "angelman4@verizon.net,"+
 "bmtdj@yahoo.com,"+
@@ -34,7 +34,8 @@ let emails_20170509 = ""+
 "josh.vito@gmail.com,"+
 "kilobob53@aol.com,"+
 "kingfish51@verizon.net,"+
-"luborn2@yandex.ru,"+
+"leonardc5711@gmail.com,"+
+// "luborn2@yandex.ru,"+
 "mcjit99@aol.com,"+
 "miguelongo9@gmail.com,"+
 "mike@mikeswetpets.com,"+
@@ -58,7 +59,7 @@ let emails_20170509 = ""+
 "t_russ2@yahoo.com,"+
 "tbam101@gmail.com,"+
 "tfcectom@gmail.com,"+
-"tfcprez2@aol.com,"+
+"tfcprez2@gmail.com,"+
 "tgroset@yahoo.com,"+
 "theduuz@aol.com,"+
 "tkoala529@aol.com,"+
@@ -69,7 +70,7 @@ let emails_20170509 = ""+
 "zenzerhead@aol.com,"+
 "";
 
-var tfcecFriends = ""+
+let tfcecFriends = ""+
 "CNYASPres@gmail.com,"+ 
 "borstein@yahoo.com,"+ 
 "bulletin@hdas.ca,"+ 
@@ -92,16 +93,12 @@ var tfcecFriends = ""+
 "";
 
 // USE VIA
-//   var buz = require('./tfcec-email-list-membership.js');
+//   var buz = require("./tfcec-email-list-membership.js");
 //    buz.getBcc();
-var TFCECEMAILS = function () {};
-
-// TFCECEMAILS.prototype.getBcc = function () {
-//   return emails;
-// };
+let TFCECEMAILS = function () {};
 
 TFCECEMAILS.prototype.getBcc = function () {
-  return emails_20170509;
+  return emails_20170606;
 };
 
 TFCECEMAILS.prototype.getFriends = function () {
